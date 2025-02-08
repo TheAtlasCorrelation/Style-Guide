@@ -1,0 +1,217 @@
+body {
+    background-color: aqua;
+}
+
+.subtitle1 {
+    top: 0.00001px;
+    background-color: hsl(255, 100%, 10%);
+    width: 1000px;
+    color: aqua;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    left: 0.00001px;
+    font-size: 20px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.subtitle2 {
+    top: 0.00001px;
+    color: aqua;
+    background-color: hsl(255, 100%, 10%);
+    padding: 15px 32px;
+    width: 1000px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    left: 400px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.subtitle3 {
+    color: aqua;
+    background-color: hsl(255, 100%, 10%);
+    padding: 15px 32px;
+    top: 0.00001px;
+    width: 1000px;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    left: 900px;
+    font-family: 'Quattrocento Sans', sans-serif;
+
+}
+
+.subtitle4 {
+    top: 0.00001px;
+    color: aqua;
+    background-color: hsl(255, 100%, 10%);
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    font-size: 20px;
+    left: 1350px;
+    width: 100px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.img {
+    height: 700px;
+    width: 1000px;
+    top: 800px;
+    left: 0.000001px;
+}
+
+.head {
+    left: 20px;
+    position: absolute;
+    top: 40px;
+    text-decoration: underline;
+    color: hsl(240, 90%, 35%);
+    font-family: 'Quattrocento Sans', sans-serif;
+    line-height: 60px;
+    font-size: 50px;
+}
+
+.head1 {
+    left: 20px;
+    top: 80px;
+    position: absolute;
+    text-decoration: underline;
+    color: hsl(240, 90%, 35%);
+    font-family: 'Quattrocento Sans', sans-serif;
+    line-height: 70px;
+    font-size: 50px;
+}
+
+.head2 {
+    left: 20px;
+    top: 120px;
+    position: absolute;
+    text-decoration: underline;
+    color: hsl(240, 90%, 35%);
+    font-family: 'Quattrocento Sans', sans-serif;
+    line-height: 80px;
+    font-size: 50px;
+}
+
+.head3 {
+    left: 20px;
+    top: 160px;
+    position: absolute;
+    text-decoration: underline;
+    color: hsl(240, 90%, 35%);
+    font-family: 'Quattrocento Sans', sans-serif;
+    line-height: 90px;
+    font-size: 50px;
+}
+
+.head4 {
+    background-color: hsl(255, 100%, 10%);
+    border: none;
+    color: aqua;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 50px;
+}
+
+.p {
+    top: 220px;
+    left: 20px;
+    position: absolute;
+    color: hsl(170, 100%, 50%);
+    font-size: 250%;
+    font-family: 'Ovo', serif;
+}
+
+.colour1 {
+    color: rgb(0, 136, 255);
+    background-color: hsl(240, 100%, 10%);
+    font-size: 30px;
+    font-family: 'Ovo', serif;
+    font-size: 175%;
+    width: 285px;
+    top: 125px;
+}
+
+.colour2 {
+    background-color: hsl(30, 70%, 10%);
+    font-size: 30px;
+    color: hsl(30, 70%, 50%);
+    font-family: 'Ovo', serif;
+    font-size: 175%;
+    width: 285px;
+}
+
+.colour {
+    position: absolute;
+    top: 765px;
+}
+
+.typography {
+    font-family: 'Ovo', serif;
+}
+
+.footer {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.link {
+    color: hsl(215, 100%, 50%);
+}
+
+.button-types {
+    display: inline;
+}
+
+.button {
+    background-color: rgb(72, 72, 255);
+    border: 5px hsl(255, 100%, 10%) solid;
+    width: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Ovo', serif;
+}
+
+.hover {
+    background-color: rgb(90, 90, 255);
+    border: 5px hsl(255, 100%, 10%) solid;
+    width: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Ovo', serif;
+}
+
+.active {
+    background-color: rgb(78, 75, 255);
+    border: 5px hsl(255, 100%, 10%) solid;
+    width: 75px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Ovo', serif;
+}
+
+.p1 {
+    font-size: 20px;
+}
