@@ -12,7 +12,7 @@ body {
     display: inline-block;
     position: fixed;
     left: 0.00001px;
-    font-size: 20px;
+    font-size: 17.5px;
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
@@ -22,11 +22,11 @@ body {
     background-color: hsl(255, 100%, 10%);
     padding: 15px 32px;
     width: 1000px;
-    font-size: 20px;
+    font-size: 17.5px;
     text-decoration: none;
     display: inline-block;
     position: fixed;
-    left: 400px;
+    left: 300px;
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
@@ -36,11 +36,11 @@ body {
     padding: 15px 32px;
     top: 0.00001px;
     width: 1000px;
-    font-size: 20px;
+    font-size: 17.5px;
     text-decoration: none;
     display: inline-block;
     position: fixed;
-    left: 900px;
+    left: 500px;
     font-family: 'Quattrocento Sans', sans-serif;
 
 }
@@ -53,8 +53,8 @@ body {
     text-decoration: none;
     display: inline-block;
     position: fixed;
-    font-size: 20px;
-    left: 1350px;
+    font-size: 17.5px;
+    left: 700px;
     width: 100px;
     font-family: 'Quattrocento Sans', sans-serif;
 }
