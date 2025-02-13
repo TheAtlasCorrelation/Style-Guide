@@ -63,7 +63,7 @@ body {
     height: 700px;
     width: 1000px;
     top: 800px;
-    left: 0.000001px;
+    left: 1px;
 }
 
 .head {
@@ -134,7 +134,7 @@ body {
     top: 220px;
     left: 20px;
     position: absolute;
-    color: hsl(170, 100%, 50%);
+    color: hsl(180, 100%, 50%);
     font-size: 250%;
     font-family: 'Ovo', serif;
 }
@@ -146,7 +146,7 @@ body {
     font-family: 'Ovo', serif;
     font-size: 175%;
     width: 285px;
-    top: 125px;
+    top: 100px;
 }
 
 .colour2 {
@@ -158,7 +158,7 @@ body {
     width: 285px;
 }
 
-.colour {
+.colours {
     position: absolute;
     top: 765px;
 }
@@ -214,4 +214,8 @@ body {
 
 .p1 {
     font-size: 20px;
+}
+.colour {
+    font-size: 30px;
+    left: 600px;
 }
