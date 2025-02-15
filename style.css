@@ -66,58 +66,51 @@ body {
 }
 
 .img {
-    height: 700px;
-    width: 1000px;
+    height: 790px;
+    width: 1520px;
     top: 800px;
-    left: 100px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    left: 1px;
+    background-size: contain;
 }
 
 .head {
     left: 20px;
     position: absolute;
-    top: 40px;
-    text-decoration: underline;
+    top: 20px;
     color: hsl(255, 100%, 10%);
     font-family: 'Quattrocento Sans', sans-serif;
     line-height: 60px;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .head1 {
-    left: 20px;
-    top: 80px;
+    left: 240px;
+    top: 20px;
     position: absolute;
-    text-decoration: underline;
-    color: hsl(255, 100%, 10%)
+    color: hsl(255, 100%, 10%);
     font-family: 'Quattrocento Sans', sans-serif;
     line-height: 70px;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .head2 {
-    left: 20px;
-    top: 120px;
+    left: 550px;
+    top: 20px;
     position: absolute;
-    text-decoration: underline;
     color: hsl(255, 100%, 10%);
     font-family: 'Quattrocento Sans', sans-serif;
     line-height: 80px;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .head3 {
-    left: 20px;
-    top: 160px;
+    left: 790px;
+    top: 20px;
     position: absolute;
-    text-decoration: underline;
-    color: hsl(255, 10%, 10%);
+    color: hsl(255, 100%, 10%);
     font-family: 'Quattrocento Sans', sans-serif;
     line-height: 90px;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .head4 {
