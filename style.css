@@ -74,43 +74,43 @@ body {
 }
 
 .head {
-    left: 20px;
+    left: 15px;
     position: absolute;
     top: 20px;
     color: hsl(255, 100%, 10%);
     font-family: 'Quattrocento Sans', sans-serif;
     line-height: 60px;
-    font-size: 100px;
+    font-size: 140px;
 }
 
 .head1 {
-    left: 240px;
+    left: 345px;
     top: 20px;
     position: absolute;
     color: hsl(255, 100%, 10%);
     font-family: 'Quattrocento Sans', sans-serif;
     line-height: 70px;
-    font-size: 100px;
+    font-size: 140px;
 }
 
 .head2 {
-    left: 550px;
-    top: 20px;
-    position: absolute;
-    color: hsl(255, 100%, 10%);
-    font-family: 'Quattrocento Sans', sans-serif;
-    line-height: 80px;
-    font-size: 100px;
-}
-
-.head3 {
     left: 790px;
     top: 20px;
     position: absolute;
     color: hsl(255, 100%, 10%);
     font-family: 'Quattrocento Sans', sans-serif;
+    line-height: 80px;
+    font-size: 140px;
+}
+
+.head3 {
+    left: 1120px;
+    top: 20px;
+    position: absolute;
+    color: hsl(255, 100%, 10%);
+    font-family: 'Quattrocento Sans', sans-serif;
     line-height: 90px;
-    font-size: 100px;
+    font-size: 140px;
 }
 
 .head4 {
@@ -124,7 +124,7 @@ body {
     font-size: 20px;
     position: absolute;
     top: 400px;
-    left: 400px;
+    left: 600px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
