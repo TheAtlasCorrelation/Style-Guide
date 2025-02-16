@@ -16,7 +16,6 @@ body {
     height: 35px;
     padding-top: 10px;
     font-family: 'Quattrocento Sans', sans-serif;
-    opacity: 0.9;
 }
 
 .subtitle2 {
@@ -32,7 +31,6 @@ body {
     width: 300px;
     height: 35px;
     font-family: 'Quattrocento Sans', sans-serif;
-    opacity: 0.9;
 }
 
 .subtitle3 {
@@ -48,7 +46,6 @@ body {
     width: 300px;
     height: 35px;
     font-family: 'Quattrocento Sans', sans-serif;
-    opacity: 0.9;
 }
 
 .subtitle4 {
@@ -65,7 +62,6 @@ body {
     width: 300px;
     height: 35px;
     font-family: 'Quattrocento Sans', sans-serif;
-    opacity: 0.9;
 }
 
 .img {
@@ -74,7 +70,6 @@ body {
     top: 800px;
     left: 0.00001px;
     background-size: contain;
-    position: static;
 }
 
 .head {
