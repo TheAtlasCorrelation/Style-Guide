@@ -13,9 +13,10 @@ body {
     left: 900px;
     padding-left: 300px;
     font-size: 17.5px;
+    padding-top: 15px;
     font-family: 'Quattrocento Sans', sans-serif;
     opacity: 0.5;
-    height: 40px;
+    height: 50px;
 }
 
 .subtitle2 {
@@ -31,15 +32,16 @@ body {
     padding-left: 200px;
     font-family: 'Quattrocento Sans', sans-serif;
     opacity: 0.5;
-    height: 40px;
+    height: 20px;
 }
 
 .subtitle3 {
     color: hsl(50, 100%, 50%);
     background-color: hsl(255, 10%, 30%);
-    top: 0.00001px;
-    width: 68px;
+    top: 0.000001px;
+    width: 200px;
     padding-left: 100px;
+    padding-top: 15px;
     font-size: 17.5px;
     text-decoration: none;
     display: inline-block;
