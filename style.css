@@ -39,7 +39,7 @@ h1 {
     text-align: center;
     display: flex;
     flex-direction: column;
-    color: rgb(130, 203, 99);
+    color: rgb(130, 200, 100);
     text-transform: uppercase;
 }
 
@@ -51,13 +51,12 @@ h1 {
     color: wheat;
 }
 
-button {
-    width: 100px;
-}
-
 .hero-paragraph {
     margin: 0;
     padding: 0;
+    color: rgb(130, 200, 100);
+    font-size: 2vw;
+    text-align: right;
 }
 
 .head {
