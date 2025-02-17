@@ -21,7 +21,8 @@ nav {
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: hsl(255, 50%, 10%);
+    font-size: 20px;
 }
 
 header {
@@ -40,21 +41,22 @@ header {
 }
 
 .hero-paragraph {
-    margin-right: 50px;
     color: rgba(120, 255, 180, 0.840);
     font-size: 2vw;
     text-align: right;
-
+    margin-right: 40px;
 }
 
 .hero-header {
     font-size: 10vw;
     font-weight: 400;
-    text-align: center;
+    text-align: right;
     display: flex;
+    margin-right: 5vh;
     flex-direction: column;
     color: rgba(120, 255, 180, 0.840);
     text-transform: uppercase;
+    margin-bottom: -5vh;
 
 
 }
@@ -66,16 +68,17 @@ header {
 
 .colour-paragraph {
     margin-left: 40vw;
+    text-align: center;
 }
 
 .colour1 {
+    margin-top: -25vh;
     color: hsl(110, 100%, 50%);
     background-color: hsl(0, 0%, 0%);
     font-size: 30px;
     font-family: 'Ovo', serif;
     width: 16vw;
-    left: 15px;
-    margin-left: 20vw;
+    margin-left: 10vw;
 }
 
 .colour2 {
@@ -84,8 +87,8 @@ header {
     color: hsl(0, 0%, 0%);
     font-family: 'Ovo', serif;
     width: 19vw;
-    margin-left: 20vw;
-    margin-bottom: 20vh;
+    margin-left: 10vw;
+
 }
 
 .typography-intro {
@@ -117,7 +120,7 @@ header {
 }
 
 .button {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border: 4px hsl(255, 100%, 10%) solid;
     width: 80px;
     border-top-left-radius: 5px;
@@ -129,7 +132,7 @@ header {
 }
 
 .active {
-    background-color: rgb(128, 128, 148);
+    background-color: rgb(130, 130, 150);
     border: 4px hsl(255, 100%, 10%) solid;
     width: 75px;
     border-top-left-radius: 5px;
@@ -141,7 +144,7 @@ header {
 }
 
 .hover {
-    background-color: rgb(173, 173, 197);
+    background-color: rgb(170, 170, 200);
     border: 4px hsl(255, 100%, 10%) solid;
     width: 70px;
     border-top-left-radius: 5px;
