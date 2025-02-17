@@ -63,7 +63,9 @@ header {
     margin-left: 10vw;
     font-size: 10vh;
 }
-
+.colour-paragraph {
+    margin-left: 40vw;
+}
 .p {
     left: 400px;
     top: 220px;
