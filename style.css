@@ -64,10 +64,15 @@ header {
     font-size: 10vh;
 }
 
-.explanatory-sentence {
-    margin-left: 20vh;
+.p {
+    left: 400px;
+    top: 220px;
+    position: absolute;
+    color: hsl(180, 100%, 50%);
+    font-size: 250%;
+    font-family: 'Ovo', serif;
+    text-align: center;
 }
-
 .colour1 {
     color: rgb(0, 136, 255);
     background-color: hsl(240, 100%, 10%);
