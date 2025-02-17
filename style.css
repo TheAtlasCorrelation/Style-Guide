@@ -91,6 +91,7 @@ header {
 .typography-intro {
     margin-left: 10vw;
     font-size: 10vh;
+    margin-top: 20vh;
 }
 
 .typography-paragraph {
@@ -103,11 +104,10 @@ header {
 
 .last-example-font {
     margin-left: 20vw;
-    margin-bottom: 30vh;
+    margin-bottom: 50vh;
 }
 
 .button-intro {
-    margin-top: 20vh;
     margin-left: 10vw;
     font-size: 10vh;
 }
@@ -149,7 +149,7 @@ header {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     font-family: 'Ovo', serif;
-    margin-bottom: 50vh;
+    margin-bottom: 29vh;
     margin-left: 20vw;
 }
 
