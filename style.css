@@ -32,7 +32,8 @@ header {
     background-position: bottom;
 }
 
-h1 {
+.hero-header {
+
     font-size: 10vw;
     font-weight: 400;
     text-align: center;
@@ -57,7 +58,9 @@ h1 {
     font-size: 2vw;
     text-align: right;
 }
-
+.colour {
+    font-size: 150px;
+}
 .colour1 {
     color: rgb(0, 136, 255);
     background-color: hsl(240, 100%, 10%);
