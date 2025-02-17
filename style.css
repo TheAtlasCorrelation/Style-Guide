@@ -58,8 +58,13 @@ header {
     font-size: 2vw;
     text-align: right;
 }
-.colour {
-    font-size: 10vw;
+
+.colour-intro {
+    margin-left: 10vw;
+    font-size: 10vh;
+}
+.explanatory-sentence {
+    margin-left: 20vh;
 }
 .colour1 {
     color: rgb(0, 136, 255);
