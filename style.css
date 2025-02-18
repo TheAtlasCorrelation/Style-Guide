@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(120, 255, 180, 0.840);
+    background-color: hsla(150, 100%, 75%, 0.85);
     font-family: 'Source Serif 4', serif;
     margin: 0;
     padding: 0;
@@ -41,10 +41,11 @@ header {
 }
 
 .hero-paragraph {
-    color: rgba(120, 255, 180, 0.840);
+    color: hsla(150, 100%, 75%, 0.85);
     font-size: 2vw;
     text-align: right;
     margin-right: 40px;
+    margin-bottom: -5vh;
 }
 
 .hero-header {
@@ -54,11 +55,15 @@ header {
     display: flex;
     margin-right: 5vh;
     flex-direction: column;
-    color: rgba(120, 255, 180, 0.840);
+    color: hsla(150, 100%, 75%, 0.85);
     text-transform: uppercase;
     margin-bottom: -5vh;
 
 
+}
+
+.colours {
+    height: 100vh;
 }
 
 .colour-intro {
@@ -67,28 +72,28 @@ header {
 }
 
 .colour-paragraph {
-    margin-left: 40vw;
-    text-align: center;
+    margin-top: -10vh;
+    margin-left: 10vw;
 }
 
+
 .colour1 {
-    margin-top: -25vh;
+    margin-left: 10vw;
     color: hsl(110, 100%, 50%);
     background-color: hsl(0, 0%, 0%);
     font-size: 30px;
     font-family: 'Ovo', serif;
-    width: 16vw;
-    margin-left: 10vw;
+    width: 12.5vw;
 }
 
 .colour2 {
+    margin-left: 10vw;
     background-color: hsl(110, 100%, 50%);
     font-size: 30px;
     color: hsl(0, 0%, 0%);
     font-family: 'Ovo', serif;
-    width: 19vw;
-    margin-left: 10vw;
-
+    width: 12.5vw;
+    margin-bottom: 50vh;
 }
 
 .typography-intro {
@@ -98,15 +103,18 @@ header {
 }
 
 .typography-paragraph {
-    margin-left: 40vw;
+    margin-left: 10vw;
 }
-
+.h1-example-font {
+    margin-left: 10vw;
+    font-size: 2vw;
+}
 .example-font {
-    margin-left: 20vw;
+    margin-left: 10vw;
 }
 
 .last-example-font {
-    margin-left: 20vw;
+    margin-left: 10vw;
     margin-bottom: 50vh;
 }
 
@@ -116,9 +124,12 @@ header {
 }
 
 .button-paragraph {
-    margin-left: 40vw;
+    margin-left: 10vw;
 }
-
+.button-types {
+    display: inline-block;
+    flex-direction: row;
+}
 .button {
     background-color: white;
     border: 4px hsl(255, 100%, 10%) solid;
@@ -128,7 +139,8 @@ header {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     font-family: 'Ovo', serif;
-    margin-left: 20vw;
+    margin-left: 10vw;
+    margin-bottom: -7vh;
 }
 
 .active {
@@ -139,8 +151,8 @@ header {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    font-family: 'Ovo', serif;
-    margin-left: 20vw;
+    margin-bottom: -7.1vh;
+    margin-left: 17vw;
 }
 
 .hover {
@@ -151,9 +163,8 @@ header {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    font-family: 'Ovo', serif;
-    margin-bottom: 29vh;
-    margin-left: 20vw;
+    margin-bottom: 45vh;
+    margin-left: 47vh;
 }
 
 .footer {
