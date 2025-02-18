@@ -105,10 +105,12 @@ header {
 .typography-paragraph {
     margin-left: 10vw;
 }
+
 .h1-example-font {
     margin-left: 10vw;
     font-size: 2vw;
 }
+
 .example-font {
     margin-left: 10vw;
 }
@@ -126,58 +128,81 @@ header {
 .button-paragraph {
     margin-left: 10vw;
 }
-.button-types {
-    display: inline-block;
-    flex-direction: row;
-}
+
 .button {
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 1600;
+    font-style: normal;
     background-color: white;
     border: 4px hsl(255, 100%, 10%) solid;
     width: 80px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    font-family: 'Ovo', serif;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
     margin-left: 10vw;
-    margin-bottom: -7vh;
+    height: 4vh;
 }
-
+.button-word {
+    margin-left: 21vh;
+}
 .active {
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 1600;
+    font-style: normal;
     background-color: rgb(130, 130, 150);
     border: 4px hsl(255, 100%, 10%) solid;
     width: 75px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    margin-bottom: -7.1vh;
-    margin-left: 17vw;
-}
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-left: 34vh;
+    height: 4vh;
 
+}
+.active-word {
+    margin-left: 35vh;
+    margin-bottom: -10vh;
+}
 .hover {
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 1600;
+    font-style: normal;
     background-color: rgb(170, 170, 200);
     border: 4px hsl(255, 100%, 10%) solid;
     width: 70px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    margin-bottom: 45vh;
-    margin-left: 47vh;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-left: 50vh;
+    height: 4vh;
+    margin-bottom: -60vw;
 }
-
+.hover-word {
+    margin-left: 51.5vh;
+    margin-bottom: 20vh;
+}
 .footer {
     text-align: center;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .link {
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 800;
+    font-style: normal;
     color: hsl(215, 100%, 50%);
 }
 
 
 
 .button-types {
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 800;
+    font-style: normal;
     display: inline;
 }
