@@ -1,5 +1,5 @@
 body {
-    background-color: hsla(150, 100%, 75%, 0.85);
+    background-color: hsl(180, 100%, 80%);
     font-family: 'Source Serif 4', serif;
     margin: 0;
     padding: 0;
@@ -20,8 +20,9 @@ nav {
 }
 
 .nav-link {
+    font-family: 'Source Serif 4', serif;
     text-decoration: none;
-    color: hsl(255, 50%, 10%);
+    color: hsl(244, 45%, 29%);
     font-size: 20px;
 }
 
@@ -41,7 +42,8 @@ header {
 }
 
 .hero-paragraph {
-    color: hsla(150, 100%, 75%, 0.85);
+    font-family: 'Source Serif 4', serif;
+    color: hsl(180, 100%, 80%);
     font-size: 2vw;
     text-align: right;
     margin-right: 40px;
@@ -49,15 +51,16 @@ header {
 }
 
 .hero-header {
+    font-family: 'Source Serif 4', serif;
     font-size: 10vw;
     font-weight: 400;
-    text-align: right;
+    text-align: center;
     display: flex;
     margin-right: 5vh;
     flex-direction: column;
-    color: hsla(150, 100%, 75%, 0.85);
+    color: hsl(180, 100%, 80%);
     text-transform: uppercase;
-    margin-bottom: -5vh;
+    margin-bottom: -6.5vh;
 
 
 }
@@ -81,18 +84,24 @@ header {
     margin-left: 10vw;
     color: hsl(110, 100%, 50%);
     background-color: hsl(0, 0%, 0%);
-    font-size: 30px;
-    font-family: 'Ovo', serif;
+    font-size: 50px;
+    font-size: 8vh;
+    font-family: 'Source Serif 4', serif;
     width: 12.5vw;
+    height: 75px;
+    width: 400px;
 }
 
 .colour2 {
     margin-left: 10vw;
     background-color: hsl(110, 100%, 50%);
-    font-size: 30px;
     color: hsl(0, 0%, 0%);
-    font-family: 'Ovo', serif;
+    font-size: 50px;
+    font-size: 8vh;
+    font-family: 'Source Serif 4', serif;
     width: 12.5vw;
+    height: 75px;
+    width: 400px;
     margin-bottom: 50vh;
 }
 
@@ -107,17 +116,43 @@ header {
 }
 
 .h1-example-font {
+    font-family: 'Source Serif 4', serif;
     margin-left: 10vw;
-    font-size: 2vw;
+    font-size: 9.5vh;
+    font-weight: 800;
 }
 
-.example-font {
+.h2-example-font {
+    font-family: 'Source Serif 4', serif;
     margin-left: 10vw;
+    font-size: 8.75vh;
+    font-weight: 800;
 }
 
-.last-example-font {
+.h3-example-font {
+    font-family: 'Source Serif 4', serif;
+    margin-left: 10vw;
+    font-size: 6.25vh;
+    font-weight: 800;
+}
+
+.h4-example-font {
+    font-family: 'Source Serif 4', serif;
+    margin-left: 10vw;
+    font-size: 4.5vh;
+    font-weight: 800;
+}
+.h5-example-font {
+    font-family: 'Source Serif 4', serif;
+    margin-left: 10vw;
+    font-size: 2.75vh;
+    font-weight: 800;
+}
+.h6-example-font {
+    font-family: 'Source Serif 4', serif;
     margin-left: 10vw;
     margin-bottom: 50vh;
+    font-size: 1;
 }
 
 .button-intro {
@@ -130,11 +165,9 @@ header {
 }
 
 .button {
-    font-family: "M PLUS Rounded 1c", serif;
-    font-weight: 1600;
     font-style: normal;
     background-color: white;
-    border: 4px hsl(255, 100%, 10%) solid;
+    border: 3.5px hsl(255, 100%, 10%) solid;
     width: 80px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -143,16 +176,18 @@ header {
     margin-left: 10vw;
     height: 4vh;
 }
+
 .button-word {
     margin-left: 21vh;
-    margin-top: -49vh;
+    margin-top: -53vh;
+    margin-bottom: -6vh;
 }
+
 .active {
-    font-family: "M PLUS Rounded 1c", serif;
     font-weight: 1600;
     font-style: normal;
-    background-color: rgb(130, 130, 150);
-    border: 4px hsl(255, 100%, 10%) solid;
+    background-color: white;
+    border: 3.5px hsl(255, 100%, 10%) solid;
     width: 75px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -162,17 +197,22 @@ header {
     height: 4vh;
 
 }
+
+.active:hover {
+    background-color: rgb(130, 130, 150);
+    border: 4px hsl(255, 100%, 10%) solid;
+}
+
 .active-word {
     margin-left: 37vh;
-    margin-top: -6vh;
-    margin-bottom: -6vh;
+    margin-bottom: -5.5vh;
 }
+
 .hover {
-    font-family: "M PLUS Rounded 1c", serif;
     font-weight: 1600;
     font-style: normal;
-    background-color: rgb(170, 170, 200);
-    border: 4px hsl(255, 100%, 10%) solid;
+    background-color: white;
+    border: 3.5px hsl(255, 100%, 10%) solid;
     width: 70px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
@@ -182,29 +222,27 @@ header {
     height: 4vh;
     margin-bottom: 25vw;
 }
+
+.hover:hover {
+    background-color: rgb(170, 170, 200);
+    border: 4px hsl(255, 100%, 10%) solid;
+}
+
 .hover-word {
     margin-left: 52vh;
     margin-bottom: 25vw;
 }
+
 .footer {
     text-align: center;
-    font-family: "M PLUS Rounded 1c", serif;
-    font-weight: 800;
+    font-weight: 500;
     font-style: normal;
+    height: 5vh;
+    margin-bottom: -10vh;
 }
 
 .link {
-    font-family: "M PLUS Rounded 1c", serif;
-    font-weight: 800;
+    font-weight: 500;
     font-style: normal;
     color: hsl(215, 100%, 50%);
-}
-
-
-
-.button-types {
-    font-family: "M PLUS Rounded 1c", serif;
-    font-weight: 800;
-    font-style: normal;
-    display: inline;
 }
